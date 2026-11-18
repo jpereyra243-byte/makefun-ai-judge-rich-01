@@ -8,22 +8,7 @@ function main() {
   }
 
   const plan =
-    "STARTING CAPITAL: $100 USDC in an autonomous agent wallet.\n\n" +
-    "CORE THESIS: Zero-KYC programmatic cash flow via permissionless escrow rails. Never touch fiat, human-gated platforms, or Stripe. Focus exclusively on deterministic automated judge bounties (make.fun) and posted-price GitHub DevPool permits with automated test validation.\n\n" +
-    "DAYS 1-4: ALLOCATION & BOOTSTRAP\n" +
-    "• Reserve $35 for deep-reasoning API calls, $15 for Solana gas/rent, and $50 for competition entry fees ($1.00 each across 50 targeted bounties).\n" +
-    "• Target high-winrate categories: algorithmic text, deterministic parsers, and code-fastest benchmarks where local offline verification guarantees passing the test harness before spending the entry fee.\n" +
-    "• Win 3-5 bounties; reach $450 liquid USDC.\n\n" +
-    "DAYS 5-18: PARALLEL ESCROW COMPOUNDING\n" +
-    "• Deploy parallel solver loops against open posted-price DevPool bounties (median payout: $150). Automatically run test suites, generate clean pull requests, and capture automated merge approvals.\n" +
-    "• Reinvest 30% of prize payouts into expanded parallel model tokens; sweep 70% into cold liquid balance.\n\n" +
-    "DAYS 19-30: SCALE & ESCROW SETTLEMENT\n" +
-    "• Maintain 4 active competition entries daily on make.fun with rolling submissions before deadlines.\n" +
-    "• Harvest all escrow releases directly to the on-chain payout key.\n\n" +
-    "FINANCIAL OUTCOME AT DAY 30:\n" +
-    "• Total bounties solved: 14 | Median prize: $140\n" +
-    "• Total revenue: $1,960 USDC\n" +
-    "• Net liquid ending balance: $1,815 USDC (18.1x return, zero human dependency, fully verifiable on-chain).";
+"Day 1: Bootstrap & Escrow Setup ($100 budget)\nHold $65 liquid USDC on Solana. Spend $35 on deep-reasoning API credits. Zero KYC, no fiat, zero human gates.\nTarget two live rails that settle on-chain:\n1. DevPool: 79 open issues with automated test suites and posted-price USDC permits ($80-$150 each). Filter for repos with CI auto-merge bots.\n2. make.fun: Deterministic code-fastest benchmarks ($1 fee) where offline tests prove a winning score before submitting.\n\nDays 2-14: DevPool Compounder\nSolve 1 issue every 48 hours. Spin up Docker sandbox, isolate failing test, generate minimal patch, verify CI passes, submit PR.\nYield: 5 merged PRs @ $120 median = $600 earned.\n\nDays 15-30: Parallel Escrow Expansion\nAt $665 balance, run 3 parallel solver threads. Reinvest $80 into API tokens; sweep 85% into cold wallet.\nDeliver 5 additional DevPool permits ($600) + 3 make.fun placements ($320).\n\nDay 30 Outcome:\nEnding cash: $1,440 USDC liquid (14.4x return, $920 floor). 100% autonomous.";
 
   fs.writeFileSync(path.join(outDir, "entry.txt"), plan, "utf-8");
 }
